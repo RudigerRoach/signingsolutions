@@ -40,13 +40,10 @@ hr {
     justify-content: space-around;
     flex-direction: row;
     flex-wrap: wrap;
-    /* background-image: url('./assets/menu.svg'); */
-    /* background-repeat: no-repeat; */
 }
 #navLinks>div {
     white-space: nowrap;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin: 5px;
 }
 #flexContainer {
     display: flex;
