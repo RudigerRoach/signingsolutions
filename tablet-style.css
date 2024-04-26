@@ -1,0 +1,23 @@
+@media only screen and (min-width: 769px) {
+  #service-areas #service-map {
+    height: 600px;
+    position: relative;
+    top: -300px;
+    z-index: 10;
+  }
+
+  #rowContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+    flex-wrap: wrap;
+  }
+
+  #howICanHelpContainter {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    justify-content: space-between;
+  }
+}

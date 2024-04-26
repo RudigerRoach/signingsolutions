@@ -1,0 +1,56 @@
+@media only screen and (max-width: 768px) {
+    .gutteredWidth {
+        width: 90%
+    }
+
+    header #white-space {
+        visibility: hidden;
+    }
+    #logoContainer {
+        left: 5px;
+    }
+    #logoImage {
+        height: 150px;
+    }
+    #headerContainer {
+        align-items: flex-start;
+    }
+    #menuContainer {
+        justify-content: flex-start;
+        height: 150px;
+        padding-top: 10px;
+    }
+    #howICanHelp #rowContainer {
+        justify-content: unset;
+    }
+    #menuContainer #navLinks {
+        padding-left: 100px;
+    }
+    #howICanHelpContainter{
+        width: 90%;
+    }
+    #headshotContainer {
+        display: none;
+    }
+    #headshotImage {
+        display: none;
+    }
+    #headshotImageMobile {
+        display: unset;
+        max-height: 315px;
+    }
+
+    #service-areas #service-map {
+        /* height: 300px; */
+        /* position: relative; */
+        /* top: -300px; */
+        /* z-index: 10; */
+
+        height: 206px;
+        /* position: relative; */
+        /* top: -300px; */
+        /* z-index: 10; */
+        left: -74px;
+        margin-top: 50px;
+    }
+}
